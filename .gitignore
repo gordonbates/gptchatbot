@@ -1,0 +1,29 @@
+# .gitignore
+
+# Ignore the .env file
+.env
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore Django migration files
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Ignore SQLite database files
+*.sqlite3
+*.sqlite3-journal
+
+# Ignore various IDE and editor files
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.sublime*
+*.iml
+.idea/
